@@ -1,0 +1,28 @@
+C:\Users\frni\source\repos\Nominering\Nominering\obj\Debug\Nominering.csprojResolveAssemblyReference.cache
+C:\Users\frni\source\repos\Nominering\Nominering\obj\Debug\Nominering.Properties.Resources.resources
+C:\Users\frni\source\repos\Nominering\Nominering\obj\Debug\Nominering.Startside.resources
+C:\Users\frni\source\repos\Nominering\Nominering\obj\Debug\Nominering.csproj.GenerateResource.Cache
+C:\Users\frni\source\repos\Nominering\Nominering\obj\Debug\Nominering.csproj.CoreCompileInputs.cache
+C:\Users\frni\source\repos\Nominering\Nominering\bin\Debug\Nominering.exe.config
+C:\Users\frni\source\repos\Nominering\Nominering\bin\Debug\Nominering.exe
+C:\Users\frni\source\repos\Nominering\Nominering\bin\Debug\Nominering.pdb
+C:\Users\frni\source\repos\Nominering\Nominering\obj\Debug\Nominering.exe
+C:\Users\frni\source\repos\Nominering\Nominering\obj\Debug\Nominering.pdb
+C:\Users\frni\source\repos\Nominering\Nominering\bin\Debug\MySql.Data.dll
+C:\Users\frni\source\repos\Nominering\Nominering\bin\Debug\MySql.Data.xml
+C:\Users\frni\source\repos\Nominering\Nominering\obj\Debug\Nominering.DeleteForm.resources
+C:\Users\frni\source\repos\Nominering\Nominering\obj\Debug\Nominering.Insert.resources
+C:\Users\frni\Desktop\C# App Opg 3\Nominering\bin\Debug\Nominering.exe.config
+C:\Users\frni\Desktop\C# App Opg 3\Nominering\bin\Debug\Nominering.exe
+C:\Users\frni\Desktop\C# App Opg 3\Nominering\bin\Debug\Nominering.pdb
+C:\Users\frni\Desktop\C# App Opg 3\Nominering\bin\Debug\MySql.Data.dll
+C:\Users\frni\Desktop\C# App Opg 3\Nominering\bin\Debug\MySql.Data.xml
+C:\Users\frni\Desktop\C# App Opg 3\Nominering\obj\Debug\Nominering.csprojResolveAssemblyReference.cache
+C:\Users\frni\Desktop\C# App Opg 3\Nominering\obj\Debug\Nominering.DeleteForm.resources
+C:\Users\frni\Desktop\C# App Opg 3\Nominering\obj\Debug\Nominering.Insert.resources
+C:\Users\frni\Desktop\C# App Opg 3\Nominering\obj\Debug\Nominering.Properties.Resources.resources
+C:\Users\frni\Desktop\C# App Opg 3\Nominering\obj\Debug\Nominering.Startside.resources
+C:\Users\frni\Desktop\C# App Opg 3\Nominering\obj\Debug\Nominering.csproj.GenerateResource.Cache
+C:\Users\frni\Desktop\C# App Opg 3\Nominering\obj\Debug\Nominering.csproj.CoreCompileInputs.cache
+C:\Users\frni\Desktop\C# App Opg 3\Nominering\obj\Debug\Nominering.exe
+C:\Users\frni\Desktop\C# App Opg 3\Nominering\obj\Debug\Nominering.pdb

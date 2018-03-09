@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Start side</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>øvelse 1</h1>
+    <h1>I dag er det <span id="dag"></span></h1>
+    <h1>øvelse 2 + 3</h1>
+    <p id="ditnavn"></p>
+    <button type="button" name="button" onclick="obj['funk']()" id="navn">getnavn</button>
+      <h1>øvelse 6</h1>
+      <h2>Kontakt form</h2>
+      <form onsubmit="submitted()" action="index.html" method="post">
+        <label for="navn">navn</label>
+        <input type="text" name="navn" value="">
+        <input type="submit">
+      </form>
+      <p>Antal gange du har besågt siden: <span id="visited"></span></p>
+    <h1>åvelse i windows ark</h1>
+  <h1>Fiat 500</h1>
+    <img src="https://www.w3schools.com/js/objectExplained.gif" alt="">
+	<p>vågt: 850kg<p>
+	<p>farve: hvid</p>
+	<form id="forms" onsubmit="alerter()">
+    <label for="tal">svar</label>
+	<input name="tal" id="tal">
+  <input type="submit">
+	</form>
+  <h1>Ekstra øvelse</h1>
+  <h1>du har <span id="countermin">5</span> min og <span id="countersek">0</span> sek tilbage til at sende dit svar</h1>
+
+
+  </body>
+<script type="text/javascript">
+function submitted(){
+  alert("Du har nu submittet dit navn :)");
+}
+if(getCookie("visited") == ""){
+  console.log("hej");
+  document.cookie = "visited = 1; path=/";
+}else{
+  console.log("test");
+  var number = parseInt(getCookie("visited")) + 1;
+  document.cookie = "visited ="+ number +";expires=Tue, 01 Jan 2019 00:00:00 UTC; path=/";
+}
+console.log(document.cookie);
+document.getElementById('visited').innerHTML = getCookie("visited");
+function getCookie(cname) {
+    var name = cname + "=";
+    var decodedCookie = decodeURIComponent(document.cookie);
+    var ca = decodedCookie.split(';');
+    for(var i = 0; i <ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0) == ' ') {
+            c = c.substring(1);
+        }
+        if (c.indexOf(name) == 0) {
+            return c.substring(name.length, c.length);
+        }
+    }
+    return "";
+}
+  function alerter(){
+      var isnum = /^\d+$/.test(document.getElementById('forms')[0].value);
+      if(!isnum){
+      alert("du må kun taste tal ind, du tastede: " + document.getElementById('forms')[0].value);
+      }
+        }
+        var min = 1;
+        var sek = 30;
+
+      function getnavn(){
+        document.getElementById('ditnavn').innerHTML = "dit navn er " + this["navn"] + " " + this["efternavn"];
+      }
+      function createuser(navn,efternavn){
+        return  {funk:getnavn, navn:navn,efternavn:efternavn};
+      }
+       var obj = createuser("Frederik","Nielsen");
+
+async function countdown(){
+  for (var i = 0; i < 91; i++) {
+
+if(min == 0 && sek == 0){
+  window.location.href = 'http://www.google.dk/';
+}
+else if(sek == 0){
+  min = min - 1;
+  sek = 59;
+}else{
+  sek = sek - 1
+}
+document.getElementById('countermin').innerHTML = min;
+document.getElementById('countersek').innerHTML = sek;
+await sleep(1000);
+}
+}
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+countdown();
+var dage = ["mandag", "tirsdag", "onsdag", "torsdag", "fredag", "lørdag", "søndag"];
+var d = new Date();
+var n = d.getDay();
+document.getElementById('dag').innerHTML = dage[n - 1];
+</script>
+</html>

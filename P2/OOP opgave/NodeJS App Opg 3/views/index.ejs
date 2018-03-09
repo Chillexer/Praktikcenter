@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Nomineringer</title>
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <h1>Nomineringer</h1>
+    <table style="width:100%;" id="nominerede">
+      <th>ID</th>
+      <th>Titel</th>
+      <th>Year</th>
+      <th>Genre</th>
+      <th>Skuespillere</th>
+      <%for (var i = 0; i < result.length; i++) { %>
+      <tr>
+        <td><%=result[i]["ID"]%></td>
+        <td><%=result[i]["Titel"]%></td>
+        <td><%=result[i]["Year"]%></td>
+        <td><%=result[i]["Genre"]%></td>
+        <td><%=result[i]["Skuespillere"]%></td>
+      </tr>
+      <% } %>
+    </table>
+  </body>
+</html>

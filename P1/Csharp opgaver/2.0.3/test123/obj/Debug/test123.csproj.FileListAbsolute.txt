@@ -1,0 +1,9 @@
+c:\users\frni\documents\visual studio 2017\Projects\test123\test123\bin\Debug\test123.exe.config
+c:\users\frni\documents\visual studio 2017\Projects\test123\test123\bin\Debug\test123.exe
+c:\users\frni\documents\visual studio 2017\Projects\test123\test123\bin\Debug\test123.pdb
+c:\users\frni\documents\visual studio 2017\Projects\test123\test123\obj\Debug\test123.csprojResolveAssemblyReference.cache
+c:\users\frni\documents\visual studio 2017\Projects\test123\test123\obj\Debug\test123.Form1.resources
+c:\users\frni\documents\visual studio 2017\Projects\test123\test123\obj\Debug\test123.Properties.Resources.resources
+c:\users\frni\documents\visual studio 2017\Projects\test123\test123\obj\Debug\test123.csproj.GenerateResource.Cache
+c:\users\frni\documents\visual studio 2017\Projects\test123\test123\obj\Debug\test123.exe
+c:\users\frni\documents\visual studio 2017\Projects\test123\test123\obj\Debug\test123.pdb

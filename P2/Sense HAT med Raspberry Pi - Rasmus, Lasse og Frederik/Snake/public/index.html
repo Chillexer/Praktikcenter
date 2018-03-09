@@ -1,0 +1,42 @@
+<html><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Snake</title>
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
+</head>
+<body>
+	<div class="show">
+	
+    <h1>Press the arrow keys to steer the snake</h1>
+	</div>
+    <div class="joystick_container">
+        <div class="flexbox_container">
+            <button id="up" class="btn btn-dark"></button></div>
+        <div class="flexbox_container">
+            <button id="left" class="btn btn-dark"></button>
+            <button id="center" class="btn btn-light"></button>
+            <button id="right" class="btn btn-dark"></button>
+        </div>
+        <div class="flexbox_container">
+            <button id="down" class="btn btn-dark"></button>
+        </div>
+    </div>
+	
+    <button class="btn btn-light btn-lg pull-right collapsed" data-toggle="collapse" data-target="#dropdown-menu" onclick="settings()">
+        <i class="fa fa-cog fa-lg"></i>
+    </button><div class="pull-right collapse" id="dropdown-menu" style="">
+        <li class="dropdown-item">
+		<ul><input id="up_setting" class="input_settings pull-left" type="text" maxlength="1"></input>  up</ul>
+		<ul><input id="down_setting" class="input_settings pull-left" type="text" maxlength="1"></input> down</ul>
+		<ul><input id="left_setting" class="input_settings pull-left" type="text" maxlength="1"></input>  left</ul>
+		<ul><input id="right_setting" class="input_settings pull-left" type="text" maxlength="1"></input>  right</ul>
+		<ul><input id="enter_setting" class="input_settings pull-left" type="text" maxlength="5"></input>  pause</ul>
+		</li>
+	</div><script src="/static/script.js"></script>
+	<link rel="stylesheet" href="/static/lib/bootstrap-4.0.0-beta-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/lib/font-awesome-4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+    <script src="/static/lib/jquery-3.2.1/jquery-3.2.1.min.js" charset="utf-8"></script>
+    <script src="/static/lib/bootstrap-4.0.0-beta-dist/js/bootstrap.min.js" charset="utf-8"></script>
+
+
+</body></html>

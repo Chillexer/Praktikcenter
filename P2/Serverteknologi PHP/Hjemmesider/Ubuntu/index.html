@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Start side</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <img src="https://cdn-rdb.arla.com/Files/arla-dk/1345199443/76682027-6a29-407b-beb8-419109f2d59a.jpg?mode=crop&w=1680&h=750&scale=both&ak=6826258c&hm=62418bc5" alt="">
+    <div class="box">
+       <label for="qty"><abbr title="Quantity">Qty</abbr></label>
+       <input id="qty" value="0" />
+       <button id="down" onclick="modify_qty(-1)">-1</button>
+       <button id="up" onclick="modify_qty(1)">+1</button>
+   </div>
+   <video src="Video.mp4" type="video/mp4" controls autoplay></video>
+  </body>
+  <script type="text/javascript">
+    function modify_qty(i){
+      document.getElementById("qty").value = i + parseInt(document.getElementById("qty").value);
+    }       // body...
+
+  </script>
+</html>

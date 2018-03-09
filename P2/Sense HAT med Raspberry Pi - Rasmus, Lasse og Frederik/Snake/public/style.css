@@ -1,0 +1,50 @@
+.flexbox_container{
+	display: flex;
+}
+.joystick_container{
+	
+}
+.joystick_container .flexbox_container{
+	justify-content: center;
+}
+.joystick_container button{
+	width: 12%;
+	text: auto;
+}
+.joystick_container button:after{
+	content: "";
+	display: block;
+	padding-bottom: 100%;
+}
+h1{
+	text-align: center;
+}
+.input_settings {
+	width: 50px;
+	margin: 0 auto;
+}
+#up{
+	background-image: url("../public/images/up-arrow.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+#right{
+	background-image: url("../public/images/right-arrow.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+#left{
+	background-image: url("../public/images/left-arrow.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+#down{
+	background-image: url("../public/images/down-arrow.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+#center{
+	background-image: url("../public/images/ok.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}

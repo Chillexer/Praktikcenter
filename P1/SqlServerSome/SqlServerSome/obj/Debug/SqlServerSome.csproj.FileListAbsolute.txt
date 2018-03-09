@@ -1,0 +1,14 @@
+c:\users\rada\documents\visual studio 2017\Projects\SqlServerSome\SqlServerSome\bin\Debug\SqlServerSome.exe.config
+c:\users\rada\documents\visual studio 2017\Projects\SqlServerSome\SqlServerSome\bin\Debug\SqlServerSome.exe
+c:\users\rada\documents\visual studio 2017\Projects\SqlServerSome\SqlServerSome\bin\Debug\SqlServerSome.pdb
+c:\users\rada\documents\visual studio 2017\Projects\SqlServerSome\SqlServerSome\obj\Debug\SqlServerSome.csprojResolveAssemblyReference.cache
+c:\users\rada\documents\visual studio 2017\Projects\SqlServerSome\SqlServerSome\obj\Debug\MainWindow.g.cs
+c:\users\rada\documents\visual studio 2017\Projects\SqlServerSome\SqlServerSome\obj\Debug\App.g.cs
+c:\users\rada\documents\visual studio 2017\Projects\SqlServerSome\SqlServerSome\obj\Debug\SqlServerSome_MarkupCompile.cache
+c:\users\rada\documents\visual studio 2017\Projects\SqlServerSome\SqlServerSome\obj\Debug\SqlServerSome_MarkupCompile.lref
+c:\users\rada\documents\visual studio 2017\Projects\SqlServerSome\SqlServerSome\obj\Debug\MainWindow.baml
+c:\users\rada\documents\visual studio 2017\Projects\SqlServerSome\SqlServerSome\obj\Debug\SqlServerSome.g.resources
+c:\users\rada\documents\visual studio 2017\Projects\SqlServerSome\SqlServerSome\obj\Debug\SqlServerSome.Properties.Resources.resources
+c:\users\rada\documents\visual studio 2017\Projects\SqlServerSome\SqlServerSome\obj\Debug\SqlServerSome.csproj.GenerateResource.Cache
+c:\users\rada\documents\visual studio 2017\Projects\SqlServerSome\SqlServerSome\obj\Debug\SqlServerSome.exe
+c:\users\rada\documents\visual studio 2017\Projects\SqlServerSome\SqlServerSome\obj\Debug\SqlServerSome.pdb
