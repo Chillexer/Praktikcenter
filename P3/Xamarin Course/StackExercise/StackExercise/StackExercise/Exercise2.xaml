@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StackExercise.Exercise2">
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness" iOS="0, 20, 0, 0">
+        </OnPlatform>
+    </ContentPage.Padding>
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="nyc_photographer" FontSize="20" Margin="0, 10, 0, 10" TextColor="black"></Label>
+            <Image HorizontalOptions="Fill" Source="http://lorempixel.com/1920/1080/nature/3/"></Image>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Fill" Margin="0, 0, 0, 30">
+                <Button Text="Like"></Button>
+                <Button Text="Comment"></Button>
+                <Button Text="Share"></Button>
+            </StackLayout>
+            <BoxView Color="#f0f0f0" HeightRequest="1"></BoxView>
+            <Label FontSize="20" FontAttributes="Bold" Text="700 Likes" TextColor="black">
+            </Label>
+            <Label HorizontalOptions="Fill" FontSize="16" Text="This is a shot yesterday in Skanor, Sweden, when driving home, from a couple of days of work in Denmark"></Label>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
